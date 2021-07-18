@@ -1,0 +1,75 @@
+ul.breadcrumb {
+  margin-top: 20 px;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color:rgb(119, 170, 170);
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: darkcyan;
+  text-decoration: underline;
+} 
+
+
+h1.accueil, h1.hist-title, h1.event, h1.about-us, h1.contact{
+  text-align: center;
+  background-color: lightcyan;
+  margin : 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+p.contact-txt{
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+ul.contact-address{
+  margin: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  list-style-position : outside;
+}
+
+h5.card-title{
+  text-align: center;
+}
+p.card-text{
+  text-align: justify
+}
+li.list-group-item2{
+font-weight: bold;
+}
+li.list-group-item3{
+font-style: italic;
+}
+
+.overlay{
+  background-color: rgba(0, 139, 139, 0.705);
+  padding: 10px;
+}
+
+
+h2{
+  padding: 10px;
+  margin: 20px;
+}
+
+.actions{
+  text-align: justify;
+  padding: 10px;
+}
